@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://r3sayaeen8s4"]
+
+[ext_resource type="PackedScene" uid="uid://bxpuuin7lk716" path="res://Assets/stuff.tscn" id="1_fofol"]
+
+[node name="SubViewportContainer" type="SubViewportContainer"]
+offset_right = 1122.0
+offset_bottom = 586.0
+
+[node name="SubViewport" type="SubViewport" parent="."]
+handle_input_locally = false
+render_target_update_mode = 4
+
+[node name="Stuff" parent="SubViewport" instance=ExtResource("1_fofol")]
+
+[node name="ColorRect" type="ColorRect" parent="SubViewport"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.0862745)
