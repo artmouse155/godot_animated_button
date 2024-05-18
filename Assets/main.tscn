@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://87t52mnd4aha"]
 
 [ext_resource type="Script" path="res://Assets/main.gd" id="1_aajlr"]
-[ext_resource type="PackedScene" uid="uid://bnq5olp743jhl" path="res://Animated Button/fancy.tscn" id="2_2q41m"]
+[ext_resource type="PackedScene" uid="uid://bnq5olp743jhl" path="res://Animated Button/animated_button.tscn" id="2_2q41m"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_aajlr")
@@ -13,18 +13,12 @@ offset_top = -388.0
 offset_right = 2259.0
 offset_bottom = 1295.0
 
-[node name="Fancy" parent="." instance=ExtResource("2_2q41m")]
-offset_left = 325.0
-offset_top = 61.0
-offset_right = 485.0
-offset_bottom = 109.0
-
-[node name="Button" parent="." instance=ExtResource("2_2q41m")]
-visible = false
-offset_left = 78.0
-offset_top = 65.0
-offset_right = 203.0
-offset_bottom = 108.0
+[node name="AnimatedButton" parent="." instance=ExtResource("2_2q41m")]
+offset_left = 215.0
+offset_top = 140.0
+offset_right = 375.0
+offset_bottom = 188.0
+button_text = "Beans"
 
 [node name="GridContainer" type="GridContainer" parent="."]
 visible = false

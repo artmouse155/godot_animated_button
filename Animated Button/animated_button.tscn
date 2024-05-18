@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://bnq5olp743jhl"]
+[gd_scene load_steps=10 format=3 uid="uid://bnq5olp743jhl"]
 
-[ext_resource type="Script" path="res://Animated Button/fancy.gd" id="1_6cjm1"]
+[ext_resource type="Script" path="res://Animated Button/animated_button.gd" id="1_pjr4u"]
+[ext_resource type="Theme" uid="uid://c5wj4lhj04ho6" path="res://game_theme.tres" id="1_s023k"]
 [ext_resource type="Theme" uid="uid://bbwtwtgyr0wp1" path="res://Animated Button/fancy_button.tres" id="1_u4ang"]
 
 [sub_resource type="Animation" id="Animation_8sjs1"]
@@ -189,7 +190,7 @@ _data = {
 "released": SubResource("Animation_v67v0")
 }
 
-[node name="Fancy" type="Control" node_paths=PackedStringArray("anim_player")]
+[node name="AnimatedButton" type="Control"]
 custom_minimum_size = Vector2(160, 48)
 layout_mode = 3
 anchors_preset = 0
@@ -198,9 +199,9 @@ offset_bottom = 48.0
 focus_mode = 2
 mouse_force_pass_scroll_events = false
 mouse_default_cursor_shape = 2
-script = ExtResource("1_6cjm1")
-anim_player = NodePath("AnimationPlayer")
-button_color = Color(0.2, 0.615686, 0.25098, 1)
+theme = ExtResource("1_s023k")
+script = ExtResource("1_pjr4u")
+button_color = Color(0.498039, 0.721569, 0, 1)
 
 [node name="ShadowMargin" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -303,7 +304,7 @@ grow_vertical = 2
 mouse_filter = 2
 theme = ExtResource("1_u4ang")
 bbcode_enabled = true
-text = "[b]Start Game[/b]"
+text = "Animated Button"
 fit_content = true
 autowrap_mode = 0
 
