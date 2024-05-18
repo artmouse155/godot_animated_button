@@ -6,6 +6,7 @@
 [ext_resource type="FontFile" uid="uid://c3vv0w1rknigd" path="res://Animated Button/Noto_Sans/static/NotoSans-Regular.ttf" id="4_blfn4"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fkklh"]
+bg_color = Color(0, 0.266667, 0.239216, 1)
 corner_radius_top_left = 12
 corner_radius_top_right = 12
 corner_radius_bottom_right = 12
@@ -13,7 +14,7 @@ corner_radius_bottom_left = 12
 
 [sub_resource type="Gradient" id="Gradient_ieomg"]
 offsets = PackedFloat32Array(0, 0.08, 0.92, 1)
-colors = PackedColorArray(0.16, 0, 0.0533334, 1, 0.32, 0, 0.106667, 1, 0.32, 0, 0.106667, 1, 0.16, 0, 0.0533334, 1)
+colors = PackedColorArray(0, 0, 0, 0.803922, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.803922)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_hdens"]
 gradient = SubResource("Gradient_ieomg")

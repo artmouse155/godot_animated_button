@@ -10,7 +10,6 @@ extends Control
 	get:
 		return button_text
 	set(value):
-		await ready
 		push_warning("text!", name, value)
 		text_box.text = value
 		propagate_call("update")
