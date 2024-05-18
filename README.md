@@ -12,8 +12,10 @@ Place the "Animated Button" folder in your Godot project, and then drag the anim
 
 To use the functionality of the button, connect its "pressed" signal to something as you would use a regular Godot button.
 
-![Everyone loves pictures](https://github.com/artmouse155/godot_animated_button/blob/main/Demo%20Pics/Screenshot%202024-05-18%20113621.png?raw=true)
-https://github.com/artmouse155/godot_animated_button/blob/main/Demo%20Pics/Screenshot%202024-05-18%20113621.png
-
 # More pictures
 
+![Everyone loves pictures](https://github.com/artmouse155/godot_animated_button/blob/main/Demo%20Pics/Screenshot%202024-05-18%20113621.png?raw=true)
+
+# Notes
+
+Some parts of the animated button may break if files are moved around.
