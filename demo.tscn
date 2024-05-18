@@ -14,9 +14,21 @@ offset_right = 2259.0
 offset_bottom = 1295.0
 
 [node name="GridContainer" type="GridContainer" parent="."]
+visible = false
 offset_right = 229.0
 offset_bottom = 126.0
 columns = 4
+
+[node name="AnimatedButton4" parent="." instance=ExtResource("2_6wqcq")]
+offset_left = 596.0
+offset_top = 261.0
+offset_right = 773.0
+offset_bottom = 340.0
+button_text = "Bold and Italics!"
+spell_elements = 3
+text_color = Color(0, 0, 0, 1)
+font_size = 20
+button_color = Color(0.854902, 0.388235, 0.862745, 1)
 
 [node name="AnimatedButton" parent="." instance=ExtResource("2_6wqcq")]
 offset_left = 668.0
